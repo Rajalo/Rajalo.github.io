@@ -1,13 +1,52 @@
 .navbar {
     position: fixed;
     width: 100%;
-    height: 15%;
+    height: 40%;
+    top: 0;
 }
 .header {
+    align-items: center;
+    display: flex;
     width: 100%;
     height: 50%;
+    justify-content: space-between;
+}
+.tabs {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
 }
 .logo {
-    width: 30%;
-    height: 100%;
+    width: 40%;
+    height: 50%;
+    display: inline-flex;
+    padding-left: 2%;
+}
+.title{
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 70px;
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+}
+.logoPicture {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+}
+.toggleMode {
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 5%;
+}
+.content {
+    position: relative;
+    height: 800px;
+    width: 100%;
 }
