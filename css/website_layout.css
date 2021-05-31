@@ -1,0 +1,13 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 15%;
+}
+.header {
+    width: 100%;
+    height: 50%;
+}
+.logo {
+    width: 30%;
+    height: 100%;
+}

@@ -1,0 +1,18 @@
+:root {
+    --light-green: #8eff9b;
+    --normal-green: #38c031;
+    --dark-green: #20761b;
+    --light-text: #f8ffd8;
+    --dark-text:#35372e; 
+    --light-red: #ff8e8e;
+    --normal-red: #c03131;
+    --dark-red: #761b1b;
+    --deep-black: #1c0909;
+}
+.header {
+    background-color: var(--light-green);
+    color: var(--dark-text);
+}
+.toggleModeLight {
+    background-color: var(--normal-green);
+}
