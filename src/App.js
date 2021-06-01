@@ -1,5 +1,7 @@
 'use strict'
 
-export class WebsiteApp {
-    
+import buildTabs from "./TabSelector.js"
+
+window.onload = function() {
+    buildTabs()
 }

@@ -7,40 +7,57 @@
         <link rel="stylesheet" type="text/css" href="./css/website_layout.css" />
         <link rel="stylesheet" type="text/css" href="./css/website_style.css" />
         <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+        <script type="module" src="./src/App.js"></script>
     </head>
     <body>
         <div class="content">
-            <div> hello there</div>
+            <div class="content-center">
+                <div id = "home">
+                    <h1>
+                        About Me
+                    </h1>
+                </div>
+                <div id = "geometry" class="hidden">
+                    <h1>Computational Geometry Programs</h1>
+                </div>
+                <div id = "projects" class="hidden">
+                    <h1>My Other Projects</h1>
+                </div>
+                <div id = "pixel" class="hidden">
+                    <h1>Pixel Art Gallery</h1>
+                </div>
+                <div id = "contact" class="hidden">
+                    <h1>My Other Projects</h1>
+                </div>
+            </div>
         </div>
         <div class="navbar">
             <div class = "header">
                 <div class = "logo"> 
-                    <img src="logo.png" alt= "Logo" class="logoPicture">
+                    <img src="./images/logo.png" alt= "Logo" class="logoPicture">
                     <div class="title"> Reilly Browne </div>  
                 </div>
-                <div class="toggleMode toggleModeLight">
+                <div id = "toggleMode" class="toggleModeLight">
                     Dark Mode
                 </div>
             </div>
 
             <div class="tabs">
-                <div class="tab-item tab-item-selected">
+                <div id = "homeTab" class="tab-item tab-item-selected">
                     HOME
                 </div>
-                <div class="tab-item">
+                <div id = "geometryTab" class="tab-item">
                     GEOMETRY PROGRAMS
                 </div>
-                <div class="tab-item">
+                <div id = "projectsTab" class="tab-item">
                     OTHER PROJECTS
                 </div>
-                <div class="tab-item">
+                <div id = "pixelTab" class="tab-item">
                     PIXEL ART
                 </div>
-                <div class="tab-item">
+                <div id = "contactTab" class="tab-item">
                     CONTACT ME
                 </div>
-                
-                
             </div>
         </div>
     </body>

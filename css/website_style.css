@@ -5,6 +5,7 @@
     --normal-green: #38c031;
     --normal-hover-green: #4ed847;
     --dark-green: #20761b;
+    --dark-hover-green: #185715;
     --light-text: #f8ffd8;
     --dark-text:#35372e; 
     --light-red: #ff8e8e;
@@ -25,15 +26,21 @@ body {
     color: var(--dark-text);
     font-family: 'Comfortaa', monospace;
 }
-.toggleMode {
+.headerDark {
+    background-color: var(--dark-green);
+    color: var(--light-text);
+}
+#toggleMode {
     cursor: pointer;
 }
 .toggleModeLight {
-    background-color: var(--normal-green);
+    background-color: var(--dark-green);
+    color: var(--light-text);
     cursor: pointer;
 }
+
 .toggleModeLight:hover {
-    background-color: var(--normal-hover-green);
+    background-color: var(--dark-hover-green);
 }
 .logo {
     font-size: xx-large;
@@ -67,8 +74,13 @@ body {
 .tab-item-selected:hover {
     background-color: var(--near-light-green);
 }
-
 .content {
     background-color: var(--normal-red);
     color: var(--normal-red);
+}
+
+.content-center {
+    background-color: var(--light-red);
+    text-align: center;
+    color: var(--dark-text);
 }
