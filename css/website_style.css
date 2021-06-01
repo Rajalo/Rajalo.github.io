@@ -4,8 +4,11 @@
     --near-light-green: #62e672;
     --normal-green: #38c031;
     --normal-hover-green: #4ed847;
+    --dark-normal-green: #30992a;
+    --dark-normal-hover-green: #31a72b;
     --dark-green: #20761b;
     --dark-hover-green: #185715;
+    --near-dark-green: #298724;
     --light-text: #f8ffd8;
     --dark-text:#35372e; 
     --light-red: #ff8e8e;
@@ -36,17 +39,26 @@ body {
 .toggleModeLight {
     background-color: var(--dark-green);
     color: var(--light-text);
-    cursor: pointer;
 }
-
+.toggleModeDark {
+    background-color: var(--light-green);
+    color: var(--dark-text);
+}
 .toggleModeLight:hover {
     background-color: var(--dark-hover-green);
 }
+.toggleModeDark:hover{
+    background-color: var(--light-hover-green);
+}
+
 .logo {
     font-size: xx-large;
 }
 .tabs {
     background-color: var(--normal-green);
+}
+.tabsDark {
+    background-color: var(--dark-normal-green);
 }
 .tab-item {
     cursor: pointer;
@@ -63,24 +75,40 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.tab-itemDark {
+    color: var(--light-text)
+}
 .tab-item-selected {
     background-color: var(--near-light-green);
     cursor: auto;
 }
-
+.tab-item-selectedDark {
+    background-color: var(--near-dark-green);
+}
 .tab-item:hover {
     background-color: var(--normal-hover-green);
+}
+.tab-itemDark:hover {
+    background-color: var(--dark-normal-hover-green);
 }
 .tab-item-selected:hover {
     background-color: var(--near-light-green);
 }
+.tab-item-selectedDark:hover {
+    background-color: var(--near-dark-green);
+}
 .content {
     background-color: var(--normal-red);
-    color: var(--normal-red);
 }
-
+.contentDark {
+    background-color: var(--dark-red);
+}
 .content-center {
     background-color: var(--light-red);
     text-align: center;
     color: var(--dark-text);
+}
+.content-centerDark {
+    background-color: var(--normal-red);
+    color: var(--light-text);
 }

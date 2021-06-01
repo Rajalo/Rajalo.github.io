@@ -11,7 +11,15 @@ function selectTab(tab)
             let content = document.getElementById(option);
             let title = document.getElementById(option+"Tab");
             content.classList.remove("hidden");
-            title.classList.add("tab-item-selected");
+            if (title.classList.contains("tab-itemDark"))
+            {
+                title.classList.add("tab-item-selectedDark");
+            }
+            else 
+            {
+                 title.classList.add("tab-item-selected");
+
+            }
         }
         else
         {
@@ -19,6 +27,7 @@ function selectTab(tab)
             let title = document.getElementById(option+"Tab");
             content.classList.add("hidden");
             title.classList.remove("tab-item-selected");
+            title.classList.remove("tab-item-selectedDark");
         }
     }
 }
