@@ -53,13 +53,16 @@
 .content {
     position: relative;
     margin-top: 190px;
-    height: 500px;
+    height: 100%;
     width: 100%;
+    display: flex;
+    flex-flow: column;
 }
 .content-center {
     margin-left: 10%;
     margin-right: 10%;
     height: 100%;
+    flex: 0 1 auto;
     width: 80%;
 }
 

@@ -29,6 +29,7 @@ function selectTab(tab)
             title.classList.remove("tab-item-selected");
             title.classList.remove("tab-item-selectedDark");
         }
+        window.scrollTo(0,0);
     }
 }
 export default function buildTabs()
