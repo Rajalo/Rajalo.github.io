@@ -75,3 +75,7 @@
         opacity: 1;
     }
 }
+.pdf {
+    height: 500px;
+    width: 100%;
+}
