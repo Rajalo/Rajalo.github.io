@@ -79,3 +79,8 @@
     height: 500px;
     width: 100%;
 }
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
